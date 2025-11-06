@@ -56,8 +56,12 @@ const About = () => {
         <div className="max-w-5xl mx-auto">
           {/* Intro Band */}
           <div className="grid md:grid-cols-2 gap-12 mb-20">
-            <div className="w-48 h-48 md:w-64 md:h-64 mx-auto md:mx-0 rounded-full bg-gradient-to-br from-brand to-accent overflow-hidden">
-              <div className="w-full h-full bg-ink-60/20"></div>
+            <div className="w-48 h-48 md:w-64 md:h-64 mx-auto md:mx-0 rounded-full overflow-hidden bg-gradient-to-br from-brand to-accent">
+              <img
+                src="/portrait.jpg"
+                alt="Junjia Ren portrait"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="flex flex-col justify-center">
               <h1 className="font-tight font-bold text-4xl sm:text-5xl mb-4">
